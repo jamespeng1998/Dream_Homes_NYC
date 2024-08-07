@@ -1,6 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a DataFrame
+#https://catalog.data.gov/dataset/real-estate-sales-2001-2018
 df = pd.read_csv('APAN5310_HW6_DATA.csv')
 
 #data exploration
