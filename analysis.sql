@@ -42,7 +42,7 @@ FROM Homes
 GROUP BY type
 ORDER BY leased_percentage DESC;
 
-#School sold
+#Home sold in school districts
 WITH TotalHomes AS (
     SELECT
         school_id,
